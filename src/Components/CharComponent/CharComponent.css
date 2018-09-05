@@ -1,0 +1,21 @@
+.CharComponent {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.CharComponent p {
+  font-size: 1.4rem;
+  padding: 1rem;
+  text-align: center;
+  margin: 1rem;
+  border: 1px solid black;
+  width: 30px;
+}
+
+.CharComponent p:hover {
+  box-shadow: 0 4px 12px red;
+  cursor: pointer;
+  background-color: black;
+  color: red;
+}
